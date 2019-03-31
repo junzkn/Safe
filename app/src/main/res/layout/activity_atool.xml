@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="高级工具"
+        android:theme="@style/TitleTheme"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+
+    <TextView
+        android:id="@+id/tv_query_phone_address"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="归属地查询"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+    <TextView
+        android:id="@+id/tv_lock"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="程序锁"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+    <TextView
+        android:id="@+id/tv_sms_backup"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="短信备份"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+    <TextView
+        android:id="@+id/tv_search"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="常用号码查询"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+
+
+
+</LinearLayout>

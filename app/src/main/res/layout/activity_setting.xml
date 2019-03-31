@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:text="设置中心"
+        android:theme="@style/TitleTheme"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+
+    <jun.safe.view.SettingItemView
+        xmlns:jun="http://schemas.android.com/apk/res/jun.safe"
+        jun:desTitle="自动更新设置"
+        jun:desOff = "(关闭)"
+        jun:desOn = "(开启)"
+        android:id="@+id/siv_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </jun.safe.view.SettingItemView>
+
+    <jun.safe.view.SettingItemView
+        xmlns:jun="http://schemas.android.com/apk/res/jun.safe"
+        jun:desTitle="归属地设置"
+        jun:desOff = "(关闭)"
+        jun:desOn = "(开启)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </jun.safe.view.SettingItemView>
+
+</LinearLayout>

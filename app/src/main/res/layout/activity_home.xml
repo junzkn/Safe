@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:theme="@style/TitleTheme"
+        android:text="S·A·F·E"
+        android:id="@+id/tv_title"
+         />
+
+    <jun.safe.view.FocusTextView
+        android:layout_below="@+id/tv_title"
+        android:text="这是一个广告 这是一个广告 这是一个广告 这是一个广告 这是一个广告 这是一个广告 "
+        android:singleLine="true"
+        android:id="@+id/tv_ad"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+    <GridView
+        android:layout_marginTop="150dp"
+        android:layout_below="@id/tv_ad"
+        android:padding="20dp"
+        android:numColumns="3"
+        android:verticalSpacing="10dp"
+        android:id="@+id/gv_home"
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+    </GridView>
+
+</RelativeLayout>
